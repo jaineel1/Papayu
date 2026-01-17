@@ -12,7 +12,7 @@ class User(Base):
     current_role_title = Column(String, nullable=True) # e.g. "Student"
     
     # Relationships
-    skills = relationship("UserSkill", back_populates="user")
+    skills = relationship("UserSkill", back_populates="user", cascade="all, delete-orphan")
     # For simplicity, we can store target_role_id in frontend or separate table, 
     # but let's persist it here for "statefullness"
     target_role_id = Column(Integer, ForeignKey("job_roles.id"), nullable=True)
@@ -63,7 +63,7 @@ class UserSkill(Base):
     __tablename__ = "user_skills"
 
     id = Column(Integer, primary_key=True, index=True)
-    user_id = Column(Integer, ForeignKey("users.id"))
+    user_id = Column(Integer, ForeignKey("users.id", ondelete="CASCADE"))
     skill_id = Column(Integer, ForeignKey("skills.id"))
     
     proficiency_level = Column(Integer, default=1) # 1-5

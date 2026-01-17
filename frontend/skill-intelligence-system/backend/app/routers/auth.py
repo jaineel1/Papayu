@@ -23,6 +23,18 @@ def register(user: schemas.UserCreate, db: Session = Depends(get_db)):
     db.add(new_user)
     db.commit()
     db.refresh(new_user)
+
+    # SAFETY: Ensure no orphaned skills exist for this new user ID (SQLite reuse edge case)
+    print(f"DEBUG: Default cleanup for User ID {new_user.id} starting...")
+    deleted_count = db.query(models.UserSkill).filter(models.UserSkill.user_id == new_user.id).delete()
+    print(f"DEBUG: CLEANED UP {deleted_count} ORPHANED SKILLS for User ID {new_user.id}")
+    db.commit()
+    
+    # Force reload of relationships to ensure empty skills list
+    db.expire(new_user)
+    db.refresh(new_user)
+    print(f"DEBUG: Final skill count for new user: {len(new_user.skills)}")
+
     return new_user
 
 @router.post("/token")
