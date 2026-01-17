@@ -167,7 +167,7 @@ Demo Account: demo@skills.ai / password123
 
 These credentials are limited to demo access and do not expose real user data.
 
-Basic Error Handling
+##Basic Error Handling
 
 Frontend displays user-friendly messages for network and authentication errors
 
@@ -187,7 +187,7 @@ Firebase credentials are managed via environment variables
 
 Dataset is referenced by link only; no raw data is committed
 
-Demonstration
+##Demonstration
 
 The demonstration includes:
 
@@ -215,7 +215,7 @@ Resume and portfolio generation
 
 Mobile application support
 
-Team Information
+###Team Information
 
 Hackathon: Ingenious Hackathon 7.0
 
