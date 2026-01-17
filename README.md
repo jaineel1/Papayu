@@ -119,7 +119,7 @@ Preprocessing included filtering domain-relevant roles, normalizing skill names,
 
 ---
 
-## Installation and Setup (Run Locally)
+# Installation and Setup (Run Locally)
 
 # Clone the repository
 git clone <repository-url>
@@ -152,7 +152,7 @@ VITE_FIREBASE_MESSAGING_SENDER_ID=1046108634118
 VITE_FIREBASE_APP_ID=1:1046108634118:web:d60234c7501642d2e7d787
 VITE_FIREBASE_MEASUREMENT_ID=G-EHVNMYY1F9
 
-### Backend
+# Backend
 DATABASE_URL=sqlite:///./app.db
 ENV=development
 SECRET_KEY=hackathon-secret-key-change-me
@@ -160,71 +160,45 @@ ALGORITHM=HS256
 ACCESS_TOKEN_EXPIRE_MINUTES=30
 ---
 
-###Test Login Credentials
+# Test Login Credentials
 For demonstration purposes, the following test credentials may be used:
+-Demo Account: demo@skills.ai / password123
+-These credentials are limited to demo access and do not expose real user data.
+# Basic Error Handling
+-Frontend displays user-friendly messages for network and authentication errors
+-Backend validates all inputs using Pydantic schemas
+-Invalid requests return structured HTTP error responses
+-Server errors are logged for debugging without exposing sensitive data
+-Security and Secrets
+-No API keys, passwords, or secrets are hardcoded
+-.env files are excluded via .gitignore
+-Firebase credentials are managed via environment variables
+-Dataset is referenced by link only; no raw data is committed
 
-Demo Account: demo@skills.ai / password123
-
-These credentials are limited to demo access and do not expose real user data.
-
-##Basic Error Handling
-
-Frontend displays user-friendly messages for network and authentication errors
-
-Backend validates all inputs using Pydantic schemas
-
-Invalid requests return structured HTTP error responses
-
-Server errors are logged for debugging without exposing sensitive data
-
-Security and Secrets
-
-No API keys, passwords, or secrets are hardcoded
-
-.env files are excluded via .gitignore
-
-Firebase credentials are managed via environment variables
-
-Dataset is referenced by link only; no raw data is committed
-
-###Demonstration
+# Demonstration
 
 The demonstration includes:
 
-Sample user profile creation
+-Sample user profile creation
+-Career selection and readiness scoring
+-Skill-gap identification
+-Personalized learning recommendations
+-Dashboard-based visualization of progress
+-Future Enhancements
+-Role-based access control
+-Persistent cloud database
+-Real-time external integrations
+-Advanced hybrid intelligence models
+-Resume and portfolio generation
+-Mobile application support
 
-Career selection and readiness scoring
+# Team Information
 
-Skill-gap identification
+-Hackathon: Ingenious Hackathon 7.0
+-Team Name: Papayu
+-Problem Statement: 3
+-Project Type: Full-stack Skill Intelligence and Career Readiness System
 
-Personalized learning recommendations
-
-Dashboard-based visualization of progress
-
-Future Enhancements
-
-Role-based access control
-
-Persistent cloud database
-
-Real-time external integrations
-
-Advanced hybrid intelligence models
-
-Resume and portfolio generation
-
-Mobile application support
-
-###Team Information
-
-Hackathon: Ingenious Hackathon 7.0
-
-Team Name: Papayu
-
-Problem Statement: 3
-
-Project Type: Full-stack Skill Intelligence and Career Readiness System
-
-### Conclusion
+# Conclusion
 
 This project delivers an explainable, secure, and scalable skill intelligence platform that bridges the gap between academic learning and industry requirements. By focusing on career readiness estimation rather than opaque prediction, the system provides meaningful, actionable guidance for long-term professional growth in emerging sectors.
