@@ -1,0 +1,1062 @@
+{
+    "skills": [
+        {
+            "name": "Python Programming",
+            "category": "Technical"
+        },
+        {
+            "name": "Data Analysis",
+            "category": "Technical"
+        },
+        {
+            "name": "Machine Learning",
+            "category": "Technical"
+        },
+        {
+            "name": "Deep Learning",
+            "category": "Technical"
+        },
+        {
+            "name": "Natural Language Processing",
+            "category": "Technical"
+        },
+        {
+            "name": "Computer Vision",
+            "category": "Technical"
+        },
+        {
+            "name": "SQL & Databases",
+            "category": "Technical"
+        },
+        {
+            "name": "NoSQL Databases",
+            "category": "Technical"
+        },
+        {
+            "name": "Cloud Computing (AWS)",
+            "category": "Technical"
+        },
+        {
+            "name": "DevOps Practices",
+            "category": "Technical"
+        },
+        {
+            "name": "Docker & Kubernetes",
+            "category": "Technical"
+        },
+        {
+            "name": "React.js",
+            "category": "Technical"
+        },
+        {
+            "name": "Node.js",
+            "category": "Technical"
+        },
+        {
+            "name": "API Development",
+            "category": "Technical"
+        },
+        {
+            "name": "Cybersecurity Basics",
+            "category": "Technical"
+        },
+        {
+            "name": "IoT Systems",
+            "category": "Technical"
+        },
+        {
+            "name": "Embedded Systems",
+            "category": "Technical"
+        },
+        {
+            "name": "GIS & Mapping",
+            "category": "Technical"
+        },
+        {
+            "name": "Urban Planning",
+            "category": "Domain"
+        },
+        {
+            "name": "Smart Grid Technology",
+            "category": "Domain"
+        },
+        {
+            "name": "Traffic Management Systems",
+            "category": "Domain"
+        },
+        {
+            "name": "Precision Agriculture",
+            "category": "Domain"
+        },
+        {
+            "name": "Soil Science",
+            "category": "Domain"
+        },
+        {
+            "name": "Crop Pathology",
+            "category": "Domain"
+        },
+        {
+            "name": "Hydroponics",
+            "category": "Domain"
+        },
+        {
+            "name": "Remote Sensing",
+            "category": "Technical"
+        },
+        {
+            "name": "Medical Imaging",
+            "category": "Technical"
+        },
+        {
+            "name": "Bioinformatics",
+            "category": "Technical"
+        },
+        {
+            "name": "Electronic Health Records (EHR)",
+            "category": "Domain"
+        },
+        {
+            "name": "Telemedicine Platforms",
+            "category": "Domain"
+        },
+        {
+            "name": "Epidemiology",
+            "category": "Domain"
+        },
+        {
+            "name": "Clinical Trials Management",
+            "category": "Domain"
+        },
+        {
+            "name": "Healthcare Compliance (HIPAA)",
+            "category": "Domain"
+        },
+        {
+            "name": "Project Management",
+            "category": "Soft Skill"
+        },
+        {
+            "name": "Agile Methodologies",
+            "category": "Soft Skill"
+        },
+        {
+            "name": "Communication",
+            "category": "Soft Skill"
+        },
+        {
+            "name": "Leadership",
+            "category": "Soft Skill"
+        },
+        {
+            "name": "Critical Thinking",
+            "category": "Soft Skill"
+        },
+        {
+            "name": "Stakeholder Management",
+            "category": "Soft Skill"
+        },
+        {
+            "name": "Technical Writing",
+            "category": "Soft Skill"
+        },
+        {
+            "name": "Public Speaking",
+            "category": "Soft Skill"
+        },
+        {
+            "name": "Time Management",
+            "category": "Soft Skill"
+        },
+        {
+            "name": "Negotiation",
+            "category": "Soft Skill"
+        },
+        {
+            "name": "Digital Marketing",
+            "category": "Business"
+        },
+        {
+            "name": "Social Media Management",
+            "category": "Business"
+        },
+        {
+            "name": "Financial Analysis",
+            "category": "Business"
+        },
+        {
+            "name": "Product Management",
+            "category": "Business"
+        },
+        {
+            "name": "UI/UX Design",
+            "category": "Design"
+        },
+        {
+            "name": "Graphic Design Tools (Figma)",
+            "category": "Design"
+        },
+        {
+            "name": "User Research",
+            "category": "Design"
+        }
+    ],
+    "roles": [
+        {
+            "title": "AgriTech Data Specialist",
+            "domain": "Agricultural Technology",
+            "required_skills": [
+                {
+                    "skill": "Python Programming",
+                    "level": 3,
+                    "weight": 1.5
+                },
+                {
+                    "skill": "Data Analysis",
+                    "level": 4,
+                    "weight": 2.0
+                },
+                {
+                    "skill": "Precision Agriculture",
+                    "level": 3,
+                    "weight": 2.0
+                },
+                {
+                    "skill": "Remote Sensing",
+                    "level": 3,
+                    "weight": 1.5
+                },
+                {
+                    "skill": "GIS & Mapping",
+                    "level": 2,
+                    "weight": 1.0
+                }
+            ]
+        },
+        {
+            "title": "Smart Farm IoT Engineer",
+            "domain": "Agricultural Technology",
+            "required_skills": [
+                {
+                    "skill": "IoT Systems",
+                    "level": 4,
+                    "weight": 2.0
+                },
+                {
+                    "skill": "Embedded Systems",
+                    "level": 3,
+                    "weight": 1.5
+                },
+                {
+                    "skill": "Cloud Computing (AWS)",
+                    "level": 3,
+                    "weight": 1.0
+                },
+                {
+                    "skill": "Python Programming",
+                    "level": 3,
+                    "weight": 1.0
+                }
+            ]
+        },
+        {
+            "title": "Sustainable Crop Consultant",
+            "domain": "Agricultural Technology",
+            "required_skills": [
+                {
+                    "skill": "Soil Science",
+                    "level": 5,
+                    "weight": 2.0
+                },
+                {
+                    "skill": "Crop Pathology",
+                    "level": 4,
+                    "weight": 2.0
+                },
+                {
+                    "skill": "Communication",
+                    "level": 4,
+                    "weight": 1.0
+                },
+                {
+                    "skill": "Data Analysis",
+                    "level": 2,
+                    "weight": 0.5
+                }
+            ]
+        },
+        {
+            "title": "Smart City IoT Architect",
+            "domain": "Urban / Smart City",
+            "required_skills": [
+                {
+                    "skill": "IoT Systems",
+                    "level": 5,
+                    "weight": 2.0
+                },
+                {
+                    "skill": "Python Programming",
+                    "level": 4,
+                    "weight": 1.5
+                },
+                {
+                    "skill": "Urban Planning",
+                    "level": 2,
+                    "weight": 1.0
+                },
+                {
+                    "skill": "Cloud Computing (AWS)",
+                    "level": 4,
+                    "weight": 1.5
+                },
+                {
+                    "skill": "Cybersecurity Basics",
+                    "level": 3,
+                    "weight": 1.0
+                }
+            ]
+        },
+        {
+            "title": "Urban Data Scientist",
+            "domain": "Urban / Smart City",
+            "required_skills": [
+                {
+                    "skill": "Data Analysis",
+                    "level": 5,
+                    "weight": 2.0
+                },
+                {
+                    "skill": "Machine Learning",
+                    "level": 4,
+                    "weight": 2.0
+                },
+                {
+                    "skill": "Urban Planning",
+                    "level": 3,
+                    "weight": 1.5
+                },
+                {
+                    "skill": "GIS & Mapping",
+                    "level": 4,
+                    "weight": 1.5
+                },
+                {
+                    "skill": "Traffic Management Systems",
+                    "level": 2,
+                    "weight": 1.0
+                }
+            ]
+        },
+        {
+            "title": "Intelligent Transport Systems Engineer",
+            "domain": "Urban / Smart City",
+            "required_skills": [
+                {
+                    "skill": "Traffic Management Systems",
+                    "level": 4,
+                    "weight": 2.0
+                },
+                {
+                    "skill": "IoT Systems",
+                    "level": 3,
+                    "weight": 1.5
+                },
+                {
+                    "skill": "Data Analysis",
+                    "level": 3,
+                    "weight": 1.0
+                },
+                {
+                    "skill": "Computer Vision",
+                    "level": 3,
+                    "weight": 1.5
+                }
+            ]
+        },
+        {
+            "title": "Healthcare AI Researcher",
+            "domain": "Healthcare Technology",
+            "required_skills": [
+                {
+                    "skill": "Machine Learning",
+                    "level": 5,
+                    "weight": 2.0
+                },
+                {
+                    "skill": "Python Programming",
+                    "level": 5,
+                    "weight": 1.5
+                },
+                {
+                    "skill": "Medical Imaging",
+                    "level": 4,
+                    "weight": 2.0
+                },
+                {
+                    "skill": "Deep Learning",
+                    "level": 4,
+                    "weight": 2.0
+                },
+                {
+                    "skill": "Bioinformatics",
+                    "level": 2,
+                    "weight": 1.0
+                }
+            ]
+        },
+        {
+            "title": "Clinical Data Analyst",
+            "domain": "Healthcare Technology",
+            "required_skills": [
+                {
+                    "skill": "Data Analysis",
+                    "level": 4,
+                    "weight": 2.0
+                },
+                {
+                    "skill": "SQL & Databases",
+                    "level": 4,
+                    "weight": 1.5
+                },
+                {
+                    "skill": "Clinical Trials Management",
+                    "level": 3,
+                    "weight": 1.5
+                },
+                {
+                    "skill": "Healthcare Compliance (HIPAA)",
+                    "level": 3,
+                    "weight": 1.0
+                }
+            ]
+        },
+        {
+            "title": "Telemedicine Platform Developer",
+            "domain": "Healthcare Technology",
+            "required_skills": [
+                {
+                    "skill": "React.js",
+                    "level": 4,
+                    "weight": 1.5
+                },
+                {
+                    "skill": "Node.js",
+                    "level": 4,
+                    "weight": 1.5
+                },
+                {
+                    "skill": "Telemedicine Platforms",
+                    "level": 3,
+                    "weight": 2.0
+                },
+                {
+                    "skill": "Cybersecurity Basics",
+                    "level": 3,
+                    "weight": 1.5
+                },
+                {
+                    "skill": "API Development",
+                    "level": 4,
+                    "weight": 1.0
+                }
+            ]
+        },
+        {
+            "title": "Full Stack Developer (General)",
+            "domain": "Technology (General)",
+            "required_skills": [
+                {
+                    "skill": "React.js",
+                    "level": 4,
+                    "weight": 2.0
+                },
+                {
+                    "skill": "Node.js",
+                    "level": 4,
+                    "weight": 2.0
+                },
+                {
+                    "skill": "SQL & Databases",
+                    "level": 3,
+                    "weight": 1.5
+                },
+                {
+                    "skill": "API Development",
+                    "level": 4,
+                    "weight": 1.5
+                }
+            ]
+        },
+        {
+            "title": "DevOps Engineer",
+            "domain": "Technology (General)",
+            "required_skills": [
+                {
+                    "skill": "DevOps Practices",
+                    "level": 4,
+                    "weight": 2.0
+                },
+                {
+                    "skill": "Docker & Kubernetes",
+                    "level": 4,
+                    "weight": 2.0
+                },
+                {
+                    "skill": "Cloud Computing (AWS)",
+                    "level": 4,
+                    "weight": 1.5
+                },
+                {
+                    "skill": "Python Programming",
+                    "level": 3,
+                    "weight": 1.0
+                },
+                {
+                    "skill": "Cybersecurity Basics",
+                    "level": 3,
+                    "weight": 1.0
+                }
+            ]
+        },
+        {
+            "title": "Product Manager",
+            "domain": "Business",
+            "required_skills": [
+                {
+                    "skill": "Product Management",
+                    "level": 4,
+                    "weight": 2.0
+                },
+                {
+                    "skill": "Agile Methodologies",
+                    "level": 4,
+                    "weight": 1.5
+                },
+                {
+                    "skill": "Communication",
+                    "level": 5,
+                    "weight": 1.5
+                },
+                {
+                    "skill": "User Research",
+                    "level": 3,
+                    "weight": 1.0
+                },
+                {
+                    "skill": "Stakeholder Management",
+                    "level": 4,
+                    "weight": 1.5
+                }
+            ]
+        },
+        {
+            "title": "Data Scientist",
+            "domain": "Technology (General)",
+            "required_skills": [
+                {
+                    "skill": "Data Analysis",
+                    "level": 5,
+                    "weight": 2.0
+                },
+                {
+                    "skill": "Machine Learning",
+                    "level": 4,
+                    "weight": 2.0
+                },
+                {
+                    "skill": "Python Programming",
+                    "level": 5,
+                    "weight": 1.5
+                },
+                {
+                    "skill": "SQL & Databases",
+                    "level": 4,
+                    "weight": 1.0
+                },
+                {
+                    "skill": "Deep Learning",
+                    "level": 3,
+                    "weight": 1.0
+                }
+            ]
+        },
+        {
+            "title": "UI/UX Designer",
+            "domain": "Design",
+            "required_skills": [
+                {
+                    "skill": "UI/UX Design",
+                    "level": 5,
+                    "weight": 2.0
+                },
+                {
+                    "skill": "Graphic Design Tools (Figma)",
+                    "level": 5,
+                    "weight": 2.0
+                },
+                {
+                    "skill": "User Research",
+                    "level": 4,
+                    "weight": 1.5
+                },
+                {
+                    "skill": "Communication",
+                    "level": 4,
+                    "weight": 1.0
+                }
+            ]
+        },
+        {
+            "title": "Smart Grid Analyst",
+            "domain": "Urban / Smart City",
+            "required_skills": [
+                {
+                    "skill": "Smart Grid Technology",
+                    "level": 4,
+                    "weight": 2.0
+                },
+                {
+                    "skill": "IoT Systems",
+                    "level": 3,
+                    "weight": 1.5
+                },
+                {
+                    "skill": "Data Analysis",
+                    "level": 4,
+                    "weight": 1.5
+                },
+                {
+                    "skill": "Cloud Computing (AWS)",
+                    "level": 3,
+                    "weight": 1.0
+                }
+            ]
+        },
+        {
+            "title": "Bioinformatics Specialist",
+            "domain": "Healthcare Technology",
+            "required_skills": [
+                {
+                    "skill": "Bioinformatics",
+                    "level": 5,
+                    "weight": 2.0
+                },
+                {
+                    "skill": "Python Programming",
+                    "level": 4,
+                    "weight": 1.5
+                },
+                {
+                    "skill": "Data Analysis",
+                    "level": 4,
+                    "weight": 1.5
+                },
+                {
+                    "skill": "Machine Learning",
+                    "level": 3,
+                    "weight": 1.0
+                }
+            ]
+        },
+        {
+            "title": "Digital Marketer",
+            "domain": "Business",
+            "required_skills": [
+                {
+                    "skill": "Digital Marketing",
+                    "level": 4,
+                    "weight": 2.0
+                },
+                {
+                    "skill": "Social Media Management",
+                    "level": 5,
+                    "weight": 1.5
+                },
+                {
+                    "skill": "Communication",
+                    "level": 4,
+                    "weight": 1.5
+                },
+                {
+                    "skill": "Data Analysis",
+                    "level": 3,
+                    "weight": 1.0
+                }
+            ]
+        }
+    ],
+    "resources": [
+        {
+            "title": "Python for Data Science and Machine Learning Bootcamp",
+            "type": "Course",
+            "provider": "Udemy",
+            "skill": "Python Programming",
+            "diff": 2,
+            "link": "https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/"
+        },
+        {
+            "title": "Machine Learning by Andrew Ng",
+            "type": "Course",
+            "provider": "Coursera",
+            "skill": "Machine Learning",
+            "diff": 3,
+            "link": "https://www.coursera.org/specializations/machine-learning-introduction"
+        },
+        {
+            "title": "Deep Learning Specialization",
+            "type": "Course",
+            "provider": "Coursera",
+            "skill": "Deep Learning",
+            "diff": 5,
+            "link": "https://www.coursera.org/specializations/deep-learning"
+        },
+        {
+            "title": "AWS Certified Solutions Architect",
+            "type": "Certification",
+            "provider": "Amazon AWS",
+            "skill": "Cloud Computing (AWS)",
+            "diff": 4,
+            "link": "https://aws.amazon.com/certification/"
+        },
+        {
+            "title": "The Complete React Developer Course",
+            "type": "Course",
+            "provider": "Udemy",
+            "skill": "React.js",
+            "diff": 3,
+            "link": "https://www.udemy.com/course/react-2nd-edition/"
+        },
+        {
+            "title": "Google Data Analytics Professional Certificate",
+            "type": "Certification",
+            "provider": "Coursera/Google",
+            "skill": "Data Analysis",
+            "diff": 2,
+            "link": "https://www.coursera.org/professional-certificates/google-data-analytics"
+        },
+        {
+            "title": "Introduction to GIS Mapping",
+            "type": "Course",
+            "provider": "Coursera",
+            "skill": "GIS & Mapping",
+            "diff": 2,
+            "link": "https://www.coursera.org/learn/gis"
+        },
+        {
+            "title": "IoT System Design",
+            "type": "Project",
+            "provider": "Udacity",
+            "skill": "IoT Systems",
+            "diff": 3,
+            "link": "https://www.udacity.com/course/iot-software-engineer-nanodegree--nd209"
+        },
+        {
+            "title": "Precision Agriculture Technologies",
+            "type": "Course",
+            "provider": "WageningenX",
+            "skill": "Precision Agriculture",
+            "diff": 3,
+            "link": "https://www.edx.org/course/precision-agriculture"
+        },
+        {
+            "title": "Medical Image Analysis",
+            "type": "Course",
+            "provider": "Coursera",
+            "skill": "Medical Imaging",
+            "diff": 5,
+            "link": "https://www.coursera.org/learn/medical-image-analysis"
+        },
+        {
+            "title": "HIPAA Training for Professionals",
+            "type": "Certification",
+            "provider": "ProTrainings",
+            "skill": "Healthcare Compliance (HIPAA)",
+            "diff": 1,
+            "link": "https://www.protrainings.com/courses/hipaa"
+        },
+        {
+            "title": "Google UX Design Professional Certificate",
+            "type": "Certification",
+            "provider": "Coursera/Google",
+            "skill": "UI/UX Design",
+            "diff": 2,
+            "link": "https://www.coursera.org/professional-certificates/google-ux-design"
+        },
+        {
+            "title": "Complete Web Design: from Figma to Webflow to Freelancing",
+            "type": "Course",
+            "provider": "Udemy",
+            "skill": "Graphic Design Tools (Figma)",
+            "diff": 3,
+            "link": "https://www.udemy.com/course/freelance-web-design-from-design-to-development-to-making-money/"
+        },
+        {
+            "title": "Product Management First Steps",
+            "type": "Course",
+            "provider": "LinkedIn Learning",
+            "skill": "Product Management",
+            "diff": 1,
+            "link": "https://www.linkedin.com/learning/product-management-first-steps"
+        },
+        {
+            "title": "Digital Marketing Specialization",
+            "type": "Course",
+            "provider": "Coursera/Illinois",
+            "skill": "Digital Marketing",
+            "diff": 3,
+            "link": "https://www.coursera.org/specializations/digital-marketing"
+        },
+        {
+            "title": "Successful Negotiation: Essential Strategies and Skills",
+            "type": "Course",
+            "provider": "Coursera/Michigan",
+            "skill": "Negotiation",
+            "diff": 3,
+            "link": "https://www.coursera.org/learn/negotiation-skills"
+        },
+        {
+            "title": "Rhetoric: The Art of Persuasive Writing and Public Speaking",
+            "type": "Course",
+            "provider": "edX/Harvard",
+            "skill": "Public Speaking",
+            "diff": 4,
+            "link": "https://www.edx.org/course/rhetoric-the-art-of-persuasive-writing-and-public-speaking"
+        },
+        {
+            "title": "Technical Writing Courses",
+            "type": "Course",
+            "provider": "Google Developers",
+            "skill": "Technical Writing",
+            "diff": 2,
+            "link": "https://developers.google.com/tech-writing"
+        },
+        {
+            "title": "Agile with Atlassian Jira",
+            "type": "Course",
+            "provider": "Coursera/Atlassian",
+            "skill": "Project Management",
+            "diff": 2,
+            "link": "https://www.coursera.org/learn/agile-atlassian-jira"
+        },
+        {
+            "title": "Natural Language Processing Specialization",
+            "type": "Course",
+            "provider": "Coursera/DeepLearning.AI",
+            "skill": "Natural Language Processing",
+            "diff": 5,
+            "link": "https://www.coursera.org/specializations/natural-language-processing"
+        },
+        {
+            "title": "Deep Learning for Computer Vision",
+            "type": "Course",
+            "provider": "Udemy",
+            "skill": "Computer Vision",
+            "diff": 4,
+            "link": "https://www.udemy.com/course/deep-learning-computer-vision/"
+        },
+        {
+            "title": "Introduction to Cyber Security Specialization",
+            "type": "Course",
+            "provider": "Coursera/NYU",
+            "skill": "Cybersecurity Basics",
+            "diff": 2,
+            "link": "https://www.coursera.org/specializations/intro-cyber-security"
+        },
+        {
+            "title": "Docker and Kubernetes: The Complete Guide",
+            "type": "Course",
+            "provider": "Udemy",
+            "skill": "Docker & Kubernetes",
+            "diff": 4,
+            "link": "https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/"
+        },
+        {
+            "title": "The Complete Node.js Developer Course",
+            "type": "Course",
+            "provider": "Udemy",
+            "skill": "Node.js",
+            "diff": 3,
+            "link": "https://www.udemy.com/course/the-complete-nodejs-developer-course-2/"
+        },
+        {
+            "title": "Beginner's Guide to Image Analysis",
+            "type": "Course",
+            "provider": "CellProfiler",
+            "skill": "Bioinformatics",
+            "diff": 3,
+            "link": "https://cellprofiler.org/tutorials"
+        },
+        {
+            "title": "Smart Cities – Management of Smart Urban Infrastructures",
+            "type": "Course",
+            "provider": "Coursera/EPFL",
+            "skill": "Urban Planning",
+            "diff": 3,
+            "link": "https://www.coursera.org/learn/smart-cities"
+        },
+        {
+            "title": "IoT Wireless and Cloud Computing Emerging Technologies",
+            "type": "Course",
+            "provider": "Coursera/Yonsei",
+            "skill": "Smart Grid Technology",
+            "diff": 4,
+            "link": "https://www.coursera.org/learn/iot-wireless-cloud-computing"
+        },
+        {
+            "title": "Fundamentals of GIS",
+            "type": "Course",
+            "provider": "Coursera/UC Davis",
+            "skill": "GIS & Mapping",
+            "diff": 2,
+            "link": "https://www.coursera.org/specializations/gis"
+        },
+        {
+            "title": "Social Media Marketing Professional Certificate",
+            "type": "Certification",
+            "provider": "Coursera/Meta",
+            "skill": "Social Media Management",
+            "diff": 2,
+            "link": "https://www.coursera.org/professional-certificates/facebook-social-media-marketing"
+        },
+        {
+            "title": "Finance for Non-Finance Professionals",
+            "type": "Course",
+            "provider": "Coursera/Rice",
+            "skill": "Financial Analysis",
+            "diff": 1,
+            "link": "https://www.coursera.org/learn/finance-for-non-finance-professionals"
+        },
+        {
+            "title": "User Research – Methods and Best Practices",
+            "type": "Course",
+            "provider": "Interaction Design Foundation",
+            "skill": "User Research",
+            "diff": 3,
+            "link": "https://www.interaction-design.org/courses/user-research-methods-and-best-practices"
+        }
+    ],
+    "projects": [
+        {
+            "title": "Smart Irrigation System",
+            "description": "IoT-based automated watering system using soil moisture sensors and Arduino/ESP32.",
+            "difficulty": 2,
+            "domain": "AgriTech",
+            "repo": "https://github.com/topics/smart-irrigation",
+            "skills": [
+                "IoT Systems",
+                "Embedded Systems",
+                "C++"
+            ]
+        },
+        {
+            "title": "Plant Disease Detection App",
+            "description": "Mobile app using Convolutional Neural Networks (CNN) to identify crop diseases from photos.",
+            "difficulty": 3,
+            "domain": "AgriTech",
+            "repo": "https://github.com/topics/plant-disease-detection",
+            "skills": [
+                "Computer Vision",
+                "Deep Learning",
+                "Python Programming",
+                "React Native"
+            ]
+        },
+        {
+            "title": "Urban Traffic Flow Predictor",
+            "description": "Analyze historic traffic data to predict congestion using Time Series forecasting.",
+            "difficulty": 3,
+            "domain": "Smart Cities",
+            "repo": "https://github.com/topics/traffic-prediction",
+            "skills": [
+                "Data Analysis",
+                "Machine Learning",
+                "Python Programming"
+            ]
+        },
+        {
+            "title": "Smart Parking Management",
+            "description": "Real-time parking spot availability system using camera feeds or IoT sensors.",
+            "difficulty": 2,
+            "domain": "Smart Cities",
+            "repo": "https://github.com/topics/smart-parking",
+            "skills": [
+                "IoT Systems",
+                "Web Development",
+                "Database Management"
+            ]
+        },
+        {
+            "title": "Telemedicine Dashboard",
+            "description": "Secure web platform for remote patient monitoring and video consultations.",
+            "difficulty": 3,
+            "domain": "Healthcare",
+            "repo": "https://github.com/topics/telemedicine",
+            "skills": [
+                "React.js",
+                "Node.js",
+                "API Development",
+                "Web Security"
+            ]
+        },
+        {
+            "title": "Medical Imaging Analysis",
+            "description": "AI tool to detect anomalies in X-rays or MRI scans (Pneumonia/Tumor detection).",
+            "difficulty": 4,
+            "domain": "Healthcare",
+            "repo": "https://github.com/topics/medical-imaging",
+            "skills": [
+                "Computer Vision",
+                "Deep Learning",
+                "Python Programming"
+            ]
+        },
+        {
+            "title": "E-Commerce Microservices",
+            "description": "Scalable backend for an online store built with Docker and Kubernetes.",
+            "difficulty": 4,
+            "domain": "General",
+            "repo": "https://github.com/topics/microservices",
+            "skills": [
+                "Docker & Kubernetes",
+                "API Development",
+                "DevOps Practices"
+            ]
+        },
+        {
+            "title": "Personal Finance Tracker",
+            "description": "Full-stack app to track expenses and visualize spending habits.",
+            "difficulty": 2,
+            "domain": "General",
+            "repo": "https://github.com/topics/finance-tracker",
+            "skills": [
+                "React.js",
+                "SQL & Databases",
+                "Data Visualization"
+            ]
+        },
+        {
+            "title": "Weather Data Pipeline",
+            "description": "ETL pipeline to fetch, clean, and store weather data for analysis.",
+            "difficulty": 3,
+            "domain": "AgriTech",
+            "repo": "https://github.com/topics/etl-pipeline",
+            "skills": [
+                "Python Programming",
+                "SQL & Databases",
+                "Cloud Computing (AWS)"
+            ]
+        },
+        {
+            "title": "Cybersecurity Vulnerability Scanner",
+            "description": "Tool to scan networks or websites for common security loop holes.",
+            "difficulty": 4,
+            "domain": "Security",
+            "repo": "https://github.com/topics/vulnerability-scanner",
+            "skills": [
+                "Cybersecurity Basics",
+                "Python Programming",
+                "Networking"
+            ]
+        }
+    ]
+}
